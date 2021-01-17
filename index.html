@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="author" content="3jon" />
+    <meta name="Description" content="Description" />
+    <title>Mical & Mattia | Home</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- stylesheets -->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="css/simplelightbox.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" href="css/pageLoader.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="10">
+    <div id="loader-wrapper">
+      <div id="loader"></div>
+      <img src="images/logo.png" alt="Logo" />
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+    </div>
+    <header class="home-header cover-background position-relative" id="home">
+      <img
+        class="img-responsive invisible"
+        src="images/home_background.jpg"
+        alt="Header Background"
+      />
+      <div class="container position-cover">
+        <nav class="navbar navbar-default">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button
+              type="button"
+              class="navbar-toggle collapsed"
+              data-toggle="collapse"
+              data-target="#wedding-nav"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="wedding-nav">
+            <ul class="nav navbar-nav left-nav">
+              <li class="li-left"><a href="#home">home</a></li>
+              <li class="li-left"><a href="#love-story">Storia</a></li>
+              <li class="li-left"><a href="#wedding-events">Eventi</a></li>
+              <li class="li-right"><a href="#gift-registration">Regali</a></li>
+              <li class="li-right"><a href="#photo-gallery">Galleria</a></li>
+              <li class="li-right"><a href="#rsvp-now">Rsvp</a></li>
+            </ul>
+            <a class="navbar-logo text-hide" href="index.html">
+              <img src="images/logo.png" alt="Logo" />
+            </a>
+          </div>
+          <!-- /.navbar-collapse end -->
+        </nav>
+      </div>
+      <div
+        class="container position-cover flex-container flex-center flex-middle text-center header-flex-wrapper pt-156"
+      >
+        <div class="home-header-text-wrapper">
+          <h1 class="main-header-title">
+            <span class="position-relative text-capitalize"
+              ><i class="fa position-absolute groom">Lo sposo</i>Mattia
+            </span>
+            <span class="text-pink">&amp;</span>
+            <span class="position-relative text-capitalize"
+              ><i class="fa position-absolute bride">La sposa</i>Mical</span
+            >
+          </h1>
+          <p class="main-header-tagline margin-remove">Save the date!</p>
+          <h4 class="main-header-date">22 Maggio 2021</h4>
+        </div>
+      </div>
+    </header>
+    <!-- .wedding-couple start -->
+
+    <!-- / #wedding-couple -->
+    <section
+      class="big-day cover-background position-relative parallax-container pink-overlay"
+      id="big-day"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="pink-overlay position-cover"></div>
+          <img
+            class="img-responsive invisible"
+            src="images/big_day.jpg"
+            alt="Big Day Background"
+          />
+          <div
+            class="container padding-remove position-cover flex-container flex-middle flex-center flex-column"
+          >
+            <div class="col-md-12">
+              <h2 class="section-title text-center">
+                <span class="text-blackish arima-madurairegular">Fino al</span>
+                <span class="text-white">grande giorno</span>
+              </h2>
+              <div class="text-center">
+                <span class="title-strip-white text-white">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </span>
+              </div>
+              <p class="section-tagline text-white">
+                Unisciti a noi per celebrare il nostro matrimonio!
+              </p>
+            </div>
+            <div class="fullwidth-block">
+              <ul
+                id="countdown"
+                class="flex-container padding-remove flex-space-around"
+              >
+                <li
+                  class="flex-container flex-column flex-middle flex-space-around position-relative wow bounceInUp"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/heart-counter.png"
+                    alt="Counter"
+                  /><span class="counter-numbers days"></span
+                  ><span class="counter-tags">Giorni</span>
+                </li>
+                <li
+                  class="flex-container flex-column flex-middle flex-space-around position-relative wow bounceInUp"
+                  data-wow-delay=".2s"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/heart-counter.png"
+                    alt="Counter"
+                  /><span class="counter-numbers hours"></span
+                  ><span class="counter-tags">Ore</span>
+                </li>
+                <li
+                  class="flex-container flex-column flex-middle flex-space-around position-relative wow bounceInUp"
+                  data-wow-delay=".4s"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/heart-counter.png"
+                    alt="Counter"
+                  /><span class="counter-numbers mins"></span
+                  ><span class="counter-tags">Minuti</span>
+                </li>
+                <li
+                  class="flex-container flex-column flex-middle flex-space-around position-relative wow bounceInUp"
+                  data-wow-delay=".6s"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/heart-counter.png"
+                    alt="Counter"
+                  /><span class="counter-numbers secs"></span
+                  ><span class="counter-tags">Secondi</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / .big-day -->
+    <section
+      id="love-story"
+      class="love-story section-padding-top section-padding-bottom bg-grey"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title text-center wow bounceInDown">
+              <span class="text-blackish arima-madurairegular"
+                >La storia del</span
+              >
+              <span class="text-pink">nostro amore</span>
+            </h2>
+            <div class="text-center wow bounceInUp">
+              <span class="title-strip-pink text-pink">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+              </span>
+            </div>
+            <p class="section-tagline"></p>
+          </div>
+          <div class="clearfix col-md-12">
+            <div class="row">
+              <div class="col-sm-10 col-xs-10 center-block-col">
+                <div class="row-equal-height storyline-first">
+                  <div
+                    class="col-md-4 col-md-offset-1 col-sm-5 col-xs-6 story-thumbnail wow bounceInUp"
+                    data-wow-offset="100"
+                  >
+                    <figure class="bg-white">
+                      <div
+                        class="storyline-titlebar-left bg-pink position-relative"
+                      >
+                        <h3
+                          class="text-capitalize text-white section-subtitle text-center margin-remove"
+                        >
+                          Il primo vero incontro
+                        </h3>
+                      </div>
+                      <img
+                        class="img-responsive"
+                        src="images/foto_1.jpg"
+                        alt="First Met"
+                      />
+                      <div class="story-overview">
+                        <p
+                          class="stroryline-date text-capitalize text-pink text-center"
+                        >
+                          4 Agosto 2017
+                        </p>
+                        <p class="text-regular">
+                          Il nostro incontro è stato al leggendario bar INVIDIA
+                          in Veronetta! Al quale seguì poi la prima grigliata!!
+                        </p>
+                      </div>
+                    </figure>
+                  </div>
+                  <div class="col-md-2 col-sm-2 xs-hide storyline-divider">
+                    <div class="storyline-divider-first full-height">
+                      <img
+                        class="center-block divider-img"
+                        src="images/storyline-divider-01.png"
+                        alt="Divider"
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-4 col-xs-6 col-sm-5 story-thumbnail wow bounceInUp"
+                    data-wow-offset="100"
+                  >
+                    <figure class="bg-white">
+                      <div class="story-overview">
+                        <p
+                          class="stroryline-date text-capitalize text-pink text-center"
+                        >
+                          4 Settembre 2017
+                        </p>
+                        <p class="text-regular">
+                          La prima cena da te preparata!
+                        </p>
+                      </div>
+                      <div
+                        class="storyline-titlebar-right bg-pink position-relative"
+                      >
+                        <h3
+                          class="text-capitalize text-white section-subtitle text-center margin-remove"
+                        >
+                          La prima cena
+                        </h3>
+                      </div>
+                      <img
+                        class="img-responsive"
+                        src="images/foto_2.jpg"
+                        alt="First Met"
+                      />
+                    </figure>
+                  </div>
+                </div>
+                <!-- / .row.storyline -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / #love-story -->
+
+    <section
+      id="our-adventures"
+      class="photo-gallery section-padding-top section-padding-bottom"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title text-center">
+              <span class="text-blackish arima-madurairegular">Le nostre</span>
+              <span class="text-pink">avventure</span>
+            </h2>
+            <div class="text-center">
+              <span class="title-strip-pink text-pink">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+              </span>
+            </div>
+            <p class="section-tagline text-grey-blackish"></p>
+          </div>
+          <div class="clearfix col-md-12">
+            <div id="photos">
+              <a href="images/photo_adventure_01.jpg">
+                <figure
+                  class="cover-background position-relative wow fadeInUp"
+                  data-wow-offset="150"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/photo_adventure_01.jpg"
+                    alt="Wedding Photos"
+                    title="Wedding Photos"
+                  />
+                  <figcaption class="position-cover">
+                    <div
+                      class="overlay-figcap full-height flex-container flex-column flex-middle flex-center"
+                    >
+                      <h4 class="text-capitalize section-subtitle font-24">
+                        Sacre-Coeur, Montmartre
+                      </h4>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="images/photo_adventure_02.jpg">
+                <figure
+                  class="cover-background position-relative wow fadeInUp"
+                  data-wow-offset="150"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/photo_adventure_02.jpg"
+                    alt="Wedding Photos"
+                    title="Wedding Photos"
+                  />
+                  <figcaption class="position-cover">
+                    <div
+                      class="overlay-figcap full-height flex-container flex-column flex-middle flex-center"
+                    >
+                      <h4 class="text-capitalize section-subtitle font-24">
+                        San Marino
+                      </h4>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="images/photo_adventure_03.jpg">
+                <figure
+                  class="cover-background position-relative wow fadeInUp"
+                  data-wow-offset="150"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/photo_adventure_03.jpg"
+                    alt="Wedding Photos"
+                    title="Wedding Photos"
+                  />
+                  <figcaption class="position-cover">
+                    <div
+                      class="overlay-figcap full-height flex-container flex-column flex-middle flex-center"
+                    >
+                      <h4 class="text-capitalize section-subtitle font-24">
+                        Oceano Atlantico
+                      </h4>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="images/photo_adventure_04.jpg">
+                <figure
+                  class="cover-background position-relative wow fadeInUp"
+                  data-wow-offset="150"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/photo_adventure_04.jpg"
+                    alt="Wedding Photos"
+                    title="Wedding Photos"
+                  />
+                  <figcaption class="position-cover">
+                    <div
+                      class="overlay-figcap full-height flex-container flex-column flex-middle flex-center"
+                    >
+                      <h4 class="text-capitalize section-subtitle font-24">
+                        Roma
+                      </h4>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="images/photo_adventure_05.jpg">
+                <figure
+                  class="cover-background position-relative wow fadeInUp"
+                  data-wow-offset="150"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/photo_adventure_05.jpg"
+                    alt="Wedding Photos"
+                    title="Wedding Photos"
+                  />
+                  <figcaption class="position-cover">
+                    <div
+                      class="overlay-figcap full-height flex-container flex-column flex-middle flex-center"
+                    >
+                      <h4 class="text-capitalize section-subtitle font-24">
+                        Corno, Lessinia
+                      </h4>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+              <a href="images/photo_adventure_06.jpg">
+                <figure
+                  class="cover-background position-relative wow fadeInUp"
+                  data-wow-offset="150"
+                >
+                  <img
+                    class="img-responsive"
+                    src="images/photo_adventure_06.jpg"
+                    alt="Wedding Photos"
+                    title="Wedding Photos"
+                  />
+                  <figcaption class="position-cover">
+                    <div
+                      class="overlay-figcap full-height flex-container flex-column flex-middle flex-center"
+                    >
+                      <h4 class="text-capitalize section-subtitle font-24">
+                        Fuetreventura
+                      </h4>
+                    </div>
+                  </figcaption>
+                </figure>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="wedding-events"
+      class="wedding-events section-padding-top section-padding-bottom"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title text-center">
+              <span class="text-blackish arima-madurairegular">I nostri</span>
+              <span class="text-pink">eventi</span>
+            </h2>
+            <div class="text-center">
+              <span class="title-strip-pink text-pink">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+              </span>
+            </div>
+            <p class="section-tagline"></p>
+          </div>
+          <div class="clearfix col-md-6 wedding-events-img">
+            <img
+              class="img-responsive center-block"
+              src="images/wedding_events.jpg"
+              alt="Wedding Events"
+            />
+          </div>
+          <div class="col-md-6">
+            <ul class="events-list">
+              <li>
+                <h3 class="section-subtitle text-capitalize">
+                  <a href="#">Cerimonia</a>
+                </h3>
+                <ul class="list-inline events-info">
+                  <li class="text-capitalize">
+                    <i class="fa fa-calendar text-pink" aria-hidden="true"></i
+                    >22 Maggio 2021
+                  </li>
+                  <li class="text-capitalize">
+                    <i class="fa fa-clock-o text-pink" aria-hidden="true"></i
+                    >15:00
+                  </li>
+                  <li class="text-capitalize">
+                    <i class="fa fa-map-marker text-pink" aria-hidden="true"></i
+                    >Chiesa di Sant Ulderico, via castello 3, 37029 Castelrotto
+                  </li>
+                </ul>
+                <p class="text-regular"></p>
+              </li>
+              <li>
+                <h3 class="section-subtitle text-capitalize">
+                  <a href="#">Ricevimento</a>
+                </h3>
+                <ul class="list-inline events-info">
+                  <li class="text-capitalize">
+                    <i class="fa fa-calendar text-pink" aria-hidden="true"></i
+                    >22 Maggio 2021
+                  </li>
+                  <li class="text-capitalize">
+                    <i class="fa fa-clock-o text-pink" aria-hidden="true"></i
+                    >Dalle 16:30 alle 24:00
+                  </li>
+                  <li class="text-capitalize">
+                    <i class="fa fa-map-marker text-pink" aria-hidden="true"></i
+                    >Agriturismo Ca’ Del GAL Località Gazzi 34, 37067 Valeggio
+                    sul Mincio VR
+                  </li>
+                </ul>
+                <p class="text-regular"></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / #wedding-events -->
+    <section class="rsvp cover-background position-relative parallax-container">
+      <div class="container">
+        <div class="row">
+          <div class="pink-overlay position-cover"></div>
+          <img
+            class="invisible img-responsive"
+            src="images/rsvp_bg.jpg"
+            alt="RSVP Background"
+          />
+          <div class="position-cover flex-container flex-middle flex-center">
+            <div class="zindex-1">
+              <h2 class="section-title text-center">
+                <span class="text-white arima-madurairegular"
+                  >Speriamo che tu
+                </span>
+                <span class="text-white">possa esserci!</span>
+              </h2>
+              <div class="text-center">
+                <span class="title-strip-white text-white">
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                  <i class="fa fa-heart" aria-hidden="true"></i>
+                </span>
+              </div>
+              <p class="section-tagline text-white"></p>
+              <div class="text-center">
+                <a
+                  href="#rsvp-now"
+                  class="wedding-button bg-white text-pink center-block link-smooth-scroll"
+                  >RSVP</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / .rsvp -->
+    <!-- / #important-people -->
+    <section
+      id="rsvp-now"
+      class="rsvp-now cover-background position-relative parallax-container"
+    >
+      <div class="container">
+        <div class="row">
+          <img
+            class="img-responsive invisible"
+            src="images/rsvp_form_bg.jpg"
+            alt="RSVP Form"
+          />
+          <div class="position-cover flex-container flex-center flex-middle">
+            <div class="fullwidth-block">
+              <div class="col-md-12">
+                <h2 class="section-title text-center">
+                  <span
+                    class="text-white text-uppercase arima-madurairegular"
+                  ></span>
+                  <span class="text-pink">rsvp</span>
+                </h2>
+                <div class="text-center">
+                  <span class="title-strip-pink text-pink">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                  </span>
+                </div>
+                <p class="section-tagline text-white"></p>
+              </div>
+              <div class="clearfix col-md-12">
+                <div class="row">
+                  <div class="col-sm-8 center-block-col">
+                    <form
+                      class="text-regular"
+                      method="post"
+                      action="contact.php"
+                      name="contactform"
+                      id="contactform"
+                      autocomplete="off"
+                    >
+                      <div class="form-horizontal">
+                        <div class="form-group">
+                          <div class="col-sm-6">
+                            <div class="input-group">
+                              <span class="input-group-addon"
+                                ><i class="fa fa-user" aria-hidden="true"></i
+                              ></span>
+                              <input
+                                name="name"
+                                id="name"
+                                class="form-control"
+                                type="text"
+                                placeholder="Nome e Cognome"
+                              />
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="input-group">
+                              <span class="input-group-addon"
+                                ><i
+                                  class="fa fa-envelope"
+                                  aria-hidden="true"
+                                ></i
+                              ></span>
+                              <input
+                                name="email"
+                                id="email"
+                                class="form-control"
+                                type="text"
+                                placeholder="Email"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-horizontal">
+                        <div class="form-group">
+                          <div class="col-md-12">
+                            <div class="input-group">
+                              <span class="input-group-addon textarea-addon"
+                                ><i class="fa fa-pencil" aria-hidden="true"></i
+                              ></span>
+                              <textarea
+                                name="comments"
+                                id="comments"
+                                class="form-control textarea-custom"
+                                placeholder="Messaggio"
+                              ></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span id="message"></span>
+                      <input
+                        type="submit"
+                        class="wedding-button bg-pink text-white center-block submit"
+                        id="submit"
+                        value="Parteciperò"
+                      />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / .rsvp-now -->
+    <section
+      id="photo-gallery"
+      class="photo-gallery section-padding-top section-padding-bottom"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title text-center">
+              <span class="text-blackish arima-madurairegular">photo</span>
+              <span class="text-pink">gallery</span>
+            </h2>
+            <div class="text-center">
+              <span class="title-strip-pink text-pink">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+              </span>
+            </div>
+            <p class="section-tagline text-grey-blackish">Coming soon</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / #photo-gallery -->
+    <section
+      id="gift-registration"
+      class="gift-registration section-padding-top section-padding-bottom"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="section-title text-center">
+              <span class="text-blackish arima-madurairegular"></span>
+              <span class="text-pink">Regali</span>
+            </h2>
+            <div class="text-center">
+              <span class="title-strip-pink text-pink">
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+                <i class="fa fa-heart" aria-hidden="true"></i>
+              </span>
+            </div>
+            <p class="section-tagline">
+              La vostra presenza a questo giorno tanto speciale significa molto
+              per noi e ve ne siamo estremamente grati! Se desiderate
+              partecipare alla raccolta fondi per la luna di miele, di seguito
+              le coordinate:
+            </p>
+            <p class="section-tagline">
+              MICAL YEMANE WOLDETINSAE <br/>
+              BANCA: BANCO BPM <br/>
+              IBAN: IT40G0503411727000000000631 <br/>
+              SWIFT: BAPPIT21155
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- / #gift-registration -->
+    <footer>
+      <div class="footer-logo-wells bg-grey">
+        <a href="index.html">
+          <img
+            class="img-responsive center-block"
+            src="images/footer_logo.png"
+            alt="Footer Logo"
+          />
+        </a>
+      </div>
+      <div class="copy-right bg-blackish">
+        <p class="text-copy-right text-center margin-remove">
+          <span class="text-white"
+            >2021 - By LG</span
+          >
+        </p>
+      </div>
+    </footer>
+    <!-- / footer -->
+    <!-- javascripts -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/countdown.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
