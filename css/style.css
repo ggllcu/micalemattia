@@ -80,7 +80,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-	color: #ddd3d1;
+	color: #f7b5a5;
 	text-decoration: none;
 	cursor: pointer;
 }
@@ -168,7 +168,7 @@ i:active {
 .wedding-button.bg-blackish:focus, 
 .wedding-button.bg-blackish:active {
 	outline: none;
-	background-color: #ddd3d1;
+	background-color: #f7b5a5;
 	color: #ffffff;
 }
 .wedding-button.bg-white:hover, 
@@ -188,7 +188,7 @@ i:active {
 	display: inline-block;
 	width: 94px;
 	height: 2px;
-	background-color: #ddd3d1;
+	background-color: #f7b5a5;
 	vertical-align: middle;
 	margin-right: 4px;
 }
@@ -197,7 +197,7 @@ i:active {
 	display: inline-block;
 	width: 94px;
 	height: 2px;
-	background-color: #ddd3d1;
+	background-color: #f7b5a5;
 	vertical-align: middle;
 	margin-right: 4px;
 }
@@ -225,7 +225,7 @@ i:active {
 /*	Color Codes
 --------------------------------------------------------------------------------------- */
 .text-pink {
-	color: #ddd3d1;
+	color: #f7b5a5;
 }
 .text-white {
 	color: #fff;
@@ -243,7 +243,7 @@ i:active {
 	background-color: #eeeeee;
 }
 .bg-pink {
-	background-color: #ddd3d1;
+	background-color: #f7b5a5;
 }
 .bg-white {
 	background-color: #fff;
@@ -311,7 +311,7 @@ header nav {
 	
 }
 .navbar-default .navbar-nav>li>a:hover {
-	color: #ddd3d1;
+	color: #f7b5a5;
 }
 .navbar-default .navbar-nav>li>a:hover, 
 .navbar-default .navbar-nav>li>a:focus,
@@ -349,7 +349,7 @@ header nav {
 .navbar-default .navbar-nav>.active>a:focus, 
 .navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent;
-	color: #ddd3d1;
+	color: #f7b5a5;
 }
 
 
@@ -450,7 +450,7 @@ header nav {
 .couple-tags {
 	font-family: 'arima_madurairegular';
 	font-size: 16px;
-	color: #ddd3d1;
+	color: #f7b5a5;
 	text-transform: capitalize;
 }
 .couple-name {
@@ -476,7 +476,7 @@ header nav {
 	margin-top: 190px;
 }
 .couple-thumbnail:hover figure>img {
-	border-color: #ddd3d1;
+	border-color: #f7b5a5;
 
 }
 .wedding-couple .section-tagline {
@@ -563,7 +563,7 @@ header nav {
     height: 0;
     border-style: solid;
     border-width: 17px 0 17px 16px;
-    border-color: transparent transparent transparent #ddd3d1;
+    border-color: transparent transparent transparent #f7b5a5;
     right: -15px;
     top: 8px;
 }
@@ -574,7 +574,7 @@ header nav {
     height: 0;
     border-style: solid;
     border-width: 17px 16px 17px 0;
-    border-color: transparent #ddd3d1 transparent transparent;
+    border-color: transparent #f7b5a5 transparent transparent;
     left: -15px;
     top: 8px;
 }
@@ -641,8 +641,8 @@ header nav {
     margin-bottom: 5px;
 }
 .carousel-indicators li.active {
-	background-color: #ddd3d1;
-	border-color: #ddd3d1;
+	background-color: #f7b5a5;
+	border-color: #f7b5a5;
 	margin-bottom: 5px;
 }
 .testimonial blockquote {
@@ -733,10 +733,10 @@ header nav {
     transition: border .2s, margin 0s;
 }
 .thumbnail-custom:hover {
-	border: 10px solid #ddd3d1;
+	border: 10px solid #f7b5a5;
 }
 .important-people figure:hover figcaption > h3 > a {
-	color: #ddd3d1;
+	color: #f7b5a5;
 }
 .important-people-name {
 	font-family: 'arima_maduraibold';
@@ -817,7 +817,7 @@ input {
 	box-shadow: none;
 }
 .input-group-focus {
-	outline: 1px solid #ddd3d1;
+	outline: 1px solid #f7b5a5;
 	box-shadow: 0px 0px 2px 2px rgba(255,255,255,.5);
 	-webkit-transition: all .3s ease-in;
 	transition: all .3s ease-in; 
@@ -945,7 +945,7 @@ input {
 	transition: all .5s;
 }
 #photos figcaption:hover {
-	background-color: rgba(221, 211, 209, 1);
+	background-color: rgba(247, 181, 165, 1);
 }
 #photos figcaption h4, 
 #photos figcaption p {
@@ -1047,26 +1047,26 @@ input {
 }
 
 .blog-thumbnail:hover a {
-	color: #ddd3d1;
+	color: #f7b5a5;
     text-decoration: none;
     cursor: pointer;
 }
 .blog-thumbnail:hover .blog-thumbnail-border {
-	border-color: #ddd3d1;
+	border-color: #f7b5a5;
 }    
 .overlay-gradient-35p { /* ff3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(65%, rgba(255,255,255,0)), color-stop(100%, rgba(240,45,114,1))); /* safari4+,chrome */
 	background: -webkit-linear-gradient(90deg, rgba(240,45,114,1) 0%, rgba(255,255,255,0) 35%); /* safari5.1+,chrome10+ */ /* opera 11.10+ */ /* ie10+ */
 	background: -webkit-linear-gradient(bottom, rgba(240,45,114,1) 0%, rgba(255,255,255,0) 35%);
 	background: linear-gradient(0deg, rgba(240,45,114,1) 0%, rgba(255,255,255,0) 35%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ddd3d1',GradientType=0 ); /* ie6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7b5a5',GradientType=0 ); /* ie6-9 */
 }
 .blog-thumbnail:hover .overlay-gradient-35p  { /* ff3.6+ */
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(45%, rgba(255,255,255,0)), color-stop(100%, rgba(240,45,114,1))); /* safari4+,chrome */
 	background: -webkit-linear-gradient(90deg, rgba(240,45,114,1) 0%, rgba(255,255,255,0) 65%); /* safari5.1+,chrome10+ */ /* opera 11.10+ */ /* ie10+ */
 	background: -webkit-linear-gradient(bottom, rgba(240,45,114,1) 0%, rgba(255,255,255,0) 65%);
 	background: linear-gradient(0deg, rgba(240,45,114,1) 0%, rgba(255,255,255,0) 65%); /* w3c */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ddd3d1',GradientType=0 ); /* ie6-9 */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7b5a5',GradientType=0 ); /* ie6-9 */
 }
 .blog-thumbnail-border {
 	border-top: 0;
@@ -1094,7 +1094,7 @@ input {
 	transition: all .3s;
 }
 .contact-details:hover {
-	border: 1px solid #ddd3d1;
+	border: 1px solid #f7b5a5;
 }
 .contact-details i {
 	-webkit-transition: all .6s;
@@ -1102,7 +1102,7 @@ input {
 
 }
 .contact-details:hover i {
-	color: #ddd3d1;
+	color: #f7b5a5;
 }
 
 #gmap::before {
@@ -1209,7 +1209,7 @@ input {
 .blog-pagination i:focus,
 .blog-pagination i:active {
 	background-color: #ffffff;
-	color: #ddd3d1;
+	color: #f7b5a5;
 }
 
 .blog-pagination-btn {
@@ -1223,7 +1223,7 @@ input {
 .blog-pagination-btn:hover,
 .blog-pagination-btn:focus,
 .blog-pagination-btn:active {
-	background-color: #ddd3d1;
+	background-color: #f7b5a5;
 	color: #ffffff;
 	text-decoration: none;
 }
@@ -1285,7 +1285,7 @@ input {
 	font-family: FontAwesome;
 	display: inline-block;
 	font-size: 22px;
-	color: #ddd3d1;
+	color: #f7b5a5;
 	padding-right: 20px;
 	line-height: 1;
 	vertical-align: middle;
@@ -1381,7 +1381,7 @@ input {
     right: 0;
 }
 .pink-overlay {
-	background-color: rgba(221, 211, 209, .6);
+	background-color: rgba(247, 181, 165, .6);
 	
 }
 .parallax-container {
