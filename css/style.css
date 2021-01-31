@@ -367,7 +367,7 @@ header nav {
 	margin-bottom: -15px;
 }
 .main-header-title {
-	font-family: 'pacificoregular';
+	font-family: 'qwerty_ability';
 	font-size: 85px;
 	color: #fff;
 	text-transform: capitalize;
@@ -416,14 +416,14 @@ header nav {
 	font-size: 30px;
 	line-height: 1;
 	white-space: nowrap;
-	top: 0;
+	top: -20px;
 }
 .bride {
 	font-family: 'arima_madurailight';
 	font-size: 30px;
 	line-height: 1;
 	white-space: nowrap;
-	top: 0;
+	top: -20px;
 }
 
 
@@ -501,7 +501,7 @@ header nav {
 	left: 50%;
 	margin-left: -22.5px;
 	line-height: 1;
-	font-family: 'pacificoregular';
+	font-family: 'qwerty_ability';
 	font-size: 35px;
 	color: #fff;
 	width: 45px;

@@ -3,6 +3,14 @@
 
 
 @font-face {
+    font-family: 'qwerty_ability';
+    src: url('../fonts/qwerty_ability.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
     font-family: 'arima_maduraiblack';
     src: url('../fonts/arimamadurai-black-webfont.woff2') format('woff2'),
          url('../fonts/arimamadurai-black-webfont.woff') format('woff');
@@ -10,9 +18,6 @@
     font-style: normal;
 
 }
-
-
-
 
 @font-face {
     font-family: 'arima_maduraibold';
