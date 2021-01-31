@@ -102,8 +102,8 @@ i:active {
 }
 
 .section-title {
-	font-family: 'arima_maduraibold';
-	font-size: 45px;
+	font-family: 'qwerty_ability';
+	font-size: 55px;
 	text-transform: capitalize;
 	margin-top: 0;
 }
@@ -125,6 +125,7 @@ i:active {
 	margin-top: 0;
 }
 .arima-madurairegular {
+	font-size: 35px;
 	font-family: 'arima_madurairegular';
 }
 .text-italic {
