@@ -74,7 +74,7 @@ $(document).ready(function(){
 	
 	$('#countdown').countdown({
 		
-		date: '22 may 2021 15:0'
+		date: '05 jun 2021 10:30'
 		
 	});
 
